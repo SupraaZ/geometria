@@ -6,7 +6,9 @@ public class Circulo_AGC extends FiguraGeometrica_AGC {
 	
 	public Circulo_AGC(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (r<0) r=r*-1;
 		radio = r;
+		
 	}
 
 	@Override
