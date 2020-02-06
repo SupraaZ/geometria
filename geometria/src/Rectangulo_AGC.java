@@ -19,20 +19,22 @@ public class Rectangulo_AGC extends FiguraGeometrica_AGC {
 		l2 = lP;
 	}
 
-	@Override
+
 	/**
 	 * Calcula el area
 	 * @return devuelve el area
 	 */
+	@Override
 	public double area() {
 		return l1 * l2;
 	}
 	
-	@Override
+
 	/**
 	 * Calcula el perimetro
 	 * @return devuelve el perimetro
 	 */
+	@Override
 	public double perimetro() {
 		return (2 * l1) + (2 * l2);
 	}
